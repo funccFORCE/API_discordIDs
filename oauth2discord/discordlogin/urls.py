@@ -5,6 +5,7 @@ from django.conf.urls.static import static
 
 urlpatterns=[
     
-    path('',views.home,name='oauth2')
+    path('',views.home,name='oauth2'),
+    path('login',views.login,name='login')
 
 ]
